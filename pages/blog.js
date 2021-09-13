@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import { client } from  '../libs/client'
+import Layout from '../components/layouts/templete';
 
 export default function Blog({ blog }) {
   return (
-    <div>
+    <Layout>
       <ul>
         {blog.map((blog) => (
           <li key={blog.id}>
@@ -13,7 +14,7 @@ export default function Blog({ blog }) {
           </li>
         ))}
       </ul>
-    </div>
+    </Layout>
   )
 }
 
