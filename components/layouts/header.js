@@ -36,17 +36,17 @@ export default function Header() {
                 HOME
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/introduce'>
               <a className='lg:inline-flex lg:w-auto w-full mx-3 py-2 font-bold items-center justify-center border-b-2 hover:border-blue-600'>
                 INTRODUCE
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/blog'>
               <a className='lg:inline-flex lg:w-auto w-full mx-3 py-2 font-bold items-center justify-center border-b-2 hover:border-blue-600'>
                 BLOG
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/contact'>
               <a className='lg:inline-flex lg:w-auto w-full mx-3 py-2 font-bold items-center justify-center border-b-2 hover:border-blue-600'>
                 CONTACT
               </a>
