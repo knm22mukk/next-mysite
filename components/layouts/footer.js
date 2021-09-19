@@ -22,15 +22,15 @@ export default function Footer() {
             </Link>
           </ul>
           <ul className="flex mx-auto text-gray-50 text-center">
-            <li className="p-2 cursor-pointer text-xl">
-              <a href="https://www.instagram.com/mukk_houzai/" target="_blank"><FaInstagram /></a>
-            </li>
-            <li className="p-2 cursor-pointer text-xl">
-              <a href="https://twitter.com/mukk_houzai" target="_blank"><FiTwitter /></a>
-            </li>
-            <li className="p-2 cursor-pointer text-xl">
-              <a href="https://github.com/knm22mukk/next-mysite" target="_blank"><FiGithub /></a>
-            </li>
+            <Link href="https://www.instagram.com/mukk_houzai/" passHref>
+              <li className="p-2 cursor-pointer text-xl"><a><FaInstagram /></a></li>
+            </Link>
+            <Link href="https://twitter.com/mukk_houzai" passHref>
+              <li className="p-2 cursor-pointer text-xl"><a><FiTwitter /></a></li>
+            </Link>
+            <Link href="https://github.com/knm22mukk/next-mysite" passHref>
+              <li className="p-2 cursor-pointer text-xl"><a><FiGithub /></a></li>
+            </Link>
           </ul>
           <div className="flex mx-auto text-gray-50 text-center">
             <small>© MUKK BLOG 2021</small>

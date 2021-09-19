@@ -1,8 +1,6 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
-import { AiOutlineHome } from 'react-icons/ai'
 
 export default function Header() {
   const [active, setActive] = useState(false);
