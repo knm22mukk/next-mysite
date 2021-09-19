@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { AiOutlineHome } from 'react-icons/ai'
 
 export default function Header() {
   const [active, setActive] = useState(false);
@@ -23,7 +25,7 @@ export default function Header() {
           className="inline-flex p-3 hover:bg-gray-200 rounded lg:hidden text-gray-50 ml-auto hover:text-gray-50 outline-none"
           onClick={handleClick}  
         >
-          <Image src="/images/hamburger.svg" height={30} width={30} alt="menu" className="text-gray-50" />
+          <span className="text-gray-700 text-bold text-3xl"><GiHamburgerMenu /></span>
         </button>
         <div 
           className={`${

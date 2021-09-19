@@ -1,4 +1,6 @@
 import Link from "next/link"
+import { FaInstagram } from 'react-icons/fa'
+import { FiTwitter, FiGithub } from 'react-icons/fi'
 
 export default function Footer() {
   return (
@@ -20,14 +22,14 @@ export default function Footer() {
             </Link>
           </ul>
           <ul className="flex mx-auto text-gray-50 text-center">
-            <li className="p-2 cursor-pointer">
-              <a href="#">icon</a>
+            <li className="p-2 cursor-pointer text-xl">
+              <a href="https://www.instagram.com/mukk_houzai/" target="_blank"><FaInstagram /></a>
             </li>
-            <li className="p-2 cursor-pointer">
-              <a href="#">icon</a>
+            <li className="p-2 cursor-pointer text-xl">
+              <a href="https://twitter.com/mukk_houzai" target="_blank"><FiTwitter /></a>
             </li>
-            <li className="p-2 cursor-pointer">
-              <a href="#">icon</a>
+            <li className="p-2 cursor-pointer text-xl">
+              <a href="https://github.com/knm22mukk/next-mysite" target="_blank"><FiGithub /></a>
             </li>
           </ul>
           <div className="flex mx-auto text-gray-50 text-center">
