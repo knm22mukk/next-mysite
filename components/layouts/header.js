@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <>
-      <nav className="flex items-center flex-wrap p-3">
+      <nav className="flex items-center flex-wrap">
         <Link href="/">
           <a className="inline-flex items-center p-2 mr-4">
             <span className="text-2xl font-bold uppercase tracking-wide">
