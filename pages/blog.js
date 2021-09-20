@@ -17,7 +17,7 @@ export default function Blog({ blog }) {
             <Link key={blog.id} href={`/blog/${blog.id}`} passHref>
               <div className="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300 bg-white text-center cursor-pointer">
                 <Image priority src="/images/377201.jpg" className="rounded-t-lg w-full" height={300} width={300} alt="blogImage" />
-                <div className="p-6">
+                <div className="p-3">
                   <h1 className="md:text-1xl text-xl hover:text-indigo-600 transition duration-200  font-bold text-gray-900">
                     {blog.title}
                   </h1>

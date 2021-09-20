@@ -14,8 +14,8 @@ export default function Contact() {
             <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
               お気軽に<br />お問い合わせください
             </h2>
-            <div className="mt-8 text-center">
-              <Image src="/images/377201.jpg" height={350} width={350} alt="contact-image" />
+            <div className="mt-8">
+              <Image src="/images/macbook.jpg" height={300} width={420} alt="contact-image" />
             </div>
           </div>
         </div>

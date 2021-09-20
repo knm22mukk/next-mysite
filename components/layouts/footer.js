@@ -8,17 +8,17 @@ export default function Footer() {
       <footer className="bg-gray-800 flex flex-wrap items-center justify-between p-3 m-auto">
         <div className="container mx-auto flex flex-col flex-wrap items-center justify-between">
           <ul className="flex mx-auto text-gray-50 text-center">
-            <Link href="/">
-              <li className="p-2 hover:underline"><a>HOME</a></li>
+            <Link href="/" passHref>
+              <li className="p-2 hover:underline cursor-pointer"><a>HOME</a></li>
             </Link>
-            <Link href="/introduce">
-              <li className="p-2 hover:underline"><a>INTRODUCE</a></li>
+            <Link href="/introduce" passHref>
+              <li className="p-2 hover:underline cursor-pointer"><a>INTRODUCE</a></li>
             </Link>
-            <Link href="/blog">
-              <li className="p-2 hover:underline"><a>BLOG</a></li>
+            <Link href="/blog" passHref>
+              <li className="p-2 hover:underline cursor-pointer"><a>BLOG</a></li>
             </Link>
-            <Link href="/contact">
-              <li className="p-2 hover:underline"><a>CONTACT</a></li>
+            <Link href="/contact" passHref>
+              <li className="p-2 hover:underline cursor-pointer"><a>CONTACT</a></li>
             </Link>
           </ul>
           <ul className="flex mx-auto text-gray-50 text-center">
