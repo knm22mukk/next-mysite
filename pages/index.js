@@ -44,7 +44,7 @@ export default function Home() {
           </div>
           <div>
             <h3 className="text-lg font-semibold text-gray-500 mt-2">2. Have a great bath</h3>
-            <p className="text text-gray-400">Meet your host on the date you chose and enjoy the home sauna experience. We'll handle the payment to the host after your experience.</p>
+            <p className="text text-gray-400">Meet your host on the date you chose and enjoy the home sauna experience. Well handle the payment to the host after your experience.</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold text-gray-500 mt-2">3. Review the host</h3>
