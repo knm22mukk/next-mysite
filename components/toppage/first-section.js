@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const FirstSection = () => {
   return (
-    <div className="lg:px-24 md:px-10">
+    <div className="lg:px-24 md:px-10 mb-10">
       <h1 className="text-3xl font-bold text-gray-600 mb-10 text-center">【このWEBサイトの紹介】</h1>
       <div className="grid sm:grid-cols-3 gap-4 grid-cols-1">
         <div className="container mx-auto rounded-lg max-w-md text-center">

@@ -9,7 +9,6 @@ export default function Home() {
       <Hero />
       <section className="p-10 container mx-auto px-6 md:px-0">
         <FirstSection />
-        <hr className="w-40 my-10 border-4 rounded-md sm:mx-0 mx-auto" />
         <SecondSection />
       </section>
     </Layout>
