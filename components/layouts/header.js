@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { AiOutlineHome, AiOutlineMail } from 'react-icons/ai'
+import { RiArticleLine } from 'react-icons/ri'
 
 export default function Header() {
   const [active, setActive] = useState(false);
@@ -33,17 +35,20 @@ export default function Header() {
           <div className='md:inline-flex md:flex-row md:ml-auto md:w-auto w-full md:items-center items-start flex flex-col md:h-auto'>
             <Link href='/'>
               <a className='md:inline-flex md:w-auto w-full mx-3 py-2 font-bold items-center justify-center border-b-2 hover:border-blue-600'>
-                HOME
+                <AiOutlineHome className="mx-2 text-blue-600 text-xl" />
+                <span className="mr-2">HOME</span>
               </a>
             </Link>
             <Link href='/blog'>
               <a className='md:inline-flex md:w-auto w-full mx-3 py-2 font-bold items-center justify-center border-b-2 hover:border-blue-600'>
-                BLOG
+                <RiArticleLine className="mx-2 text-blue-600 text-xl" />
+                <span className="mr-2">BLOG</span>
               </a>
             </Link>
             <Link href='/contact'>
               <a className='md:inline-flex md:w-auto w-full mx-3 py-2 font-bold items-center justify-center border-b-2 hover:border-blue-600'>
-                CONTACT
+                <AiOutlineMail className="mx-2 text-blue-600 text-xl" />
+                <span className="mr-2">CONTACT</span>
               </a>
             </Link>
           </div>
