@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <hr className="w-40 my-10 border-4 rounded-md sm:mx-0 mx-auto" />
       </section>
-      <section className="mb-5 container mx-auto px-6 md:px-0">
+      <section className="pb-5 container mx-auto px-6 md:px-0">
         <h1 className="inline-block text-gray-600 font-bold text-3xl">
           The holy sauna ritual <br />
           (or how does Saunatime work).
