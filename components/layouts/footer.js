@@ -5,7 +5,7 @@ import { FiTwitter, FiGithub } from 'react-icons/fi'
 export default function Footer() {
   return (
     <>
-      <footer className="bg-gray-800 flex flex-wrap items-center justify-between p-3 m-auto">
+      <div className="bg-gray-800 flex flex-wrap items-center justify-between p-3 m-auto">
         <div className="container mx-auto flex flex-col flex-wrap items-center justify-between">
           <ul className="flex mx-auto text-gray-50 text-center">
             <Link href="/" passHref>
@@ -22,21 +22,24 @@ export default function Footer() {
             </Link>
           </ul>
           <ul className="flex mx-auto text-gray-50 text-center">
-            <Link href="https://www.instagram.com/mukk_houzai/" passHref>
-              <li className="p-2 cursor-pointer text-xl"><a><FaInstagram /></a></li>
-            </Link>
-            <Link href="https://twitter.com/mukk_houzai" passHref>
-              <li className="p-2 cursor-pointer text-xl"><a><FiTwitter /></a></li>
-            </Link>
-            <Link href="https://github.com/knm22mukk/next-mysite" passHref>
-              <li className="p-2 cursor-pointer text-xl"><a><FiGithub /></a></li>
-            </Link>
+              <li className="p-2 cursor-pointer text-xl">
+                <a href="https://www.instagram.com/mukk_houzai/"　target="_blank" rel="noreferrer"><FaInstagram /></a>
+              </li>
+              <li className="p-2 cursor-pointer text-xl">
+                <a href="https://twitter.com/mukk_houzai"　target="_blank" rel="noreferrer"><FiTwitter /></a>
+              </li>
+              <li className="p-2 cursor-pointer text-xl">
+                <a href="https://github.com/knm22mukk/next-mysite"　target="_blank" rel="noreferrer"><FiGithub /></a>
+              </li>
           </ul>
           <div className="flex mx-auto text-gray-50 text-center">
-            <small>© MUKK BLOG 2021</small>
+            <a　href="https://storyset.com/online" target="_blank" rel="noreferrer">Online illustrations by Storyset</a>
+          </div>
+          <div className="flex mx-auto text-gray-50 text-center">
+            <p>© MUKK BLOG 2021</p>
           </div>
         </div>
-      </footer>
+      </div>
     </>
   )
 }
