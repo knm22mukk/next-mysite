@@ -11,9 +11,6 @@ export default function Footer() {
             <Link href="/" passHref>
               <li className="p-2 hover:underline cursor-pointer"><a>HOME</a></li>
             </Link>
-            <Link href="/introduce" passHref>
-              <li className="p-2 hover:underline cursor-pointer"><a>INTRODUCE</a></li>
-            </Link>
             <Link href="/blog" passHref>
               <li className="p-2 hover:underline cursor-pointer"><a>BLOG</a></li>
             </Link>
@@ -22,15 +19,15 @@ export default function Footer() {
             </Link>
           </ul>
           <ul className="flex mx-auto text-gray-50 text-center">
-              <li className="p-2 cursor-pointer text-xl">
-                <a href="https://www.instagram.com/mukk_houzai/"　target="_blank" rel="noreferrer"><FaInstagram /></a>
-              </li>
-              <li className="p-2 cursor-pointer text-xl">
-                <a href="https://twitter.com/mukk_houzai"　target="_blank" rel="noreferrer"><FiTwitter /></a>
-              </li>
-              <li className="p-2 cursor-pointer text-xl">
-                <a href="https://github.com/knm22mukk/next-mysite"　target="_blank" rel="noreferrer"><FiGithub /></a>
-              </li>
+            <li className="p-2 cursor-pointer text-xl">
+              <a href="https://www.instagram.com/mukk_houzai/"　target="_blank" rel="noreferrer"><FaInstagram /></a>
+            </li>
+            <li className="p-2 cursor-pointer text-xl">
+              <a href="https://twitter.com/mukk_houzai"　target="_blank" rel="noreferrer"><FiTwitter /></a>
+            </li>
+            <li className="p-2 cursor-pointer text-xl">
+              <a href="https://github.com/knm22mukk/next-mysite"　target="_blank" rel="noreferrer"><FiGithub /></a>
+            </li>
           </ul>
           <div className="flex mx-auto text-gray-50 text-center">
             <a　href="https://storyset.com/online" target="_blank" rel="noreferrer">Online illustrations by Storyset</a>

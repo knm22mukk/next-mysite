@@ -1,30 +1,27 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Custom404() {
   return (
     <>
-      <div className="bg-gradient-to-r from-purple-300 to-blue-200">
-        <div className="w-9/12 m-auto py-16 min-h-screen flex items-center justify-center">
-          <div className="bg-white shadow overflow-hidden sm:rounded-lg pb-8 px-10">
-            <div className="border-t border-gray-200 text-center pt-8">
-              <h1 className="text-9xl font-bold text-purple-400">404</h1>
-              <h1 className="text-6xl font-medium py-8">おっと！<br />ページがありません！</h1>
-              <p className="text-2xl pb-8 px-12 font-medium">探しているページが存在しません。<br />移動または削除された可能性があります。</p>
-              <Link href="/">
-                <a>
-                  <button className="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 text-white font-semibold px-6 py-3 rounded-md mr-6">
-                    HOME
-                  </button>
-                </a>
-              </Link>
-              <Link href="/contact">
-                <a>
-                  <button className="bg-gradient-to-r from-red-400 to-red-500 hover:from-red-500 hover:to-red-500 text-white font-semibold px-6 py-3 rounded-md">
-                    CONTACT
-                  </button>
-                </a>
-              </Link>
+      <div className="container mx-auto h-screen flex items-center px-10">
+        <div className="container flex flex-col md:flex-row items-center justify-center px-5 text-gray-700">
+          <div className="max-w-md">
+            <div className="text-5xl font-dark font-bold pb-3">
+              404
             </div>
+              <p className="text-2xl md:text-3xl font-light leading-normal">
+                ページが見つかりませんでした。
+              </p>
+              <p className="mb-8">
+                The page you are looking for does not exist. It might have been moved or deleted.
+              </p>
+              <Link href='/' passHref>
+                <button className="px-4 inline py-2 text-sm font-medium leading-5 shadow text-white transition-colors duration-150 border border-transparent rounded-lg focus:outline-none focus:shadow-outline-blue bg-blue-600 active:bg-blue-600 hover:bg-blue-700"><a>ホームに戻る</a></button>
+              </Link>
+          </div>
+          <div className="max-w-lg">
+            <Image src="/images/404.svg" width={400} height={400} alt="404" />
           </div>
         </div>
       </div>

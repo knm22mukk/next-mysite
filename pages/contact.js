@@ -1,5 +1,7 @@
 import Layout from "../components/layouts/templete";
 import Image from "next/image"
+import { FaRegAddressCard } from 'react-icons/fa'
+import { AiOutlineMail, AiOutlineMessage } from 'react-icons/ai'
 
 export default function Contact() {
   return (
@@ -25,19 +27,19 @@ export default function Contact() {
         >
           <div className="">
             <div>
-              <span className="uppercase text-sm text-gray-600 font-bold">Full Name</span>
+              <p className="text-xl text-gray-600 font-bold"><span className="inline-flex px-2"><FaRegAddressCard /></span>お名前</p>
               <input className="w-full text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="text" name="name" id="name" placeholder="" required />
             </div>
             <div className="mt-8">
-              <span className="uppercase text-sm text-gray-600 font-bold">Email</span>
+              <p className="text-xl text-gray-600 font-bold"><span className="inline-flex px-2"><AiOutlineMail /></span>メールアドレス</p>
               <input className="w-full text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="text" name="email" id="email" placeholder="" required />
             </div>
             <div className="mt-8">
-              <span className="uppercase text-sm text-gray-600 font-bold">Message</span>
+              <p className="text-xl text-gray-600 font-bold"><span className="inline-flex px-2"><AiOutlineMessage /></span>Message</p>
               <textarea className="w-full h-32 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="text" placeholder="" />
             </div>
             <div className="mt-8">
-              <button className="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+              <button className="text-xl font-bold tracking-wide bg-blue-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
                 send message
               </button>
             </div>
