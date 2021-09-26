@@ -1,5 +1,4 @@
 import Layout from "../components/layouts/templete";
-import Link from 'next/link'
 import Image from 'next/image'
 import { FaInstagram } from 'react-icons/fa'
 import { FiTwitter, FiGithub } from 'react-icons/fi'
