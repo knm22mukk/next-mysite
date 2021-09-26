@@ -4,42 +4,52 @@ export const SecondSection = () => {
   return (
     <>
       <div className="relative">
-        <h3 className="text-3xl font-bold text-gray-600 mb-10 text-center text-uppercase">【フレームワーク & ライブラリー】</h3>
-        <div className="grid grid-cols-2 gap-5 uppercase">
-
-          <div className="group flex items-center bg-white shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-600 mt-5 transition">
-            <SiNextDotJs className="w-9 text-3xl" />
-            <div>
-              <span>next.js</span>
-              <span className="text-xs text-blue-300 block">javascript</span>
+        <h3 className="text-3xl font-bold text-gray-600 mb-10 text-center">【フレームワーク & ライブラリー】</h3>
+        <div className="grid gap-6 grid-cols-2 md:grid-cols-4">
+          <a href="https://nextjs.org/"　target="_blank" rel="noreferrer">
+            <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg ring-2 ring-offset-2 ring-offset-blue-600 ">
+              <div className="p-3 mr-4 rounded-full text-3xl">
+                <SiNextDotJs />
+              </div>
+              <div className="">
+                <p className="mb-2 text-s font-medium text-gray-900">NEXT.js</p>
+                <p className="text-sm font-normal text-gray-700">JavaScript</p>
+              </div>
             </div>
-          </div>
-
-          <div className="group flex items-center bg-white shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-600 mt-5 transition">
-            <SiReact className="w-9 text-3xl" />
-            <div>
-              <span>react</span>
-              <span className="text-xs text-blue-300 block">javascript</span>
+          </a>
+          <a href="https://ja.reactjs.org/"　target="_blank" rel="noreferrer">
+            <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg ring-2 ring-offset-2 ring-offset-blue-600 ">
+              <div className="p-3 mr-4 rounded-full text-3xl">
+                <SiReact />
+              </div>
+              <div className="">
+                <p className="mb-2 text-s font-medium text-gray-900">React</p>
+                <p className="text-sm font-normal text-gray-700">JavaScript</p>
+              </div>
             </div>
-          </div>
-
-          <div className="group flex items-center bg-white shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-600 mt-5 transition">
-            <SiTailwindcss className="w-9 text-3xl" />
-            <div>
-              <span>tailwind</span>
-              <span className="text-xs text-blue-300 block">css</span>
+          </a>
+          <a href="https://tailwindcss.com/"　target="_blank" rel="noreferrer">
+            <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg ring-2 ring-offset-2 ring-offset-blue-600 ">
+              <div className="p-3 mr-4 rounded-full text-3xl">
+                <SiTailwindcss />
+              </div>
+              <div className="">
+                <p className="mb-2 text-s font-medium text-gray-900">TailWind</p>
+                <p className="text-sm font-normal text-gray-700">CSS</p>
+              </div>
             </div>
-          </div>
-
-          <div className="group flex items-center bg-white shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-600 mt-5 transition">
-            <SiCraftcms className="w-9 text-3xl" />
-            <div>
-              <span>microcms</span>
-              <span className="text-xs text-blue-300 block">api</span>
+          </a>
+          <a href="https://microcms.io/"　target="_blank" rel="noreferrer">
+            <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg ring-2 ring-offset-2 ring-offset-blue-600 ">
+              <div className="p-3 mr-4 rounded-full text-3xl">
+                <SiCraftcms />
+              </div>
+              <div className="">
+                <p className="mb-2 text-s font-medium text-gray-900">MicroCMS</p>
+                <p className="text-sm font-normal text-gray-700">API</p>
+              </div>
             </div>
-          </div>
-
-          
+          </a>          
         </div>
       </div>
     </>

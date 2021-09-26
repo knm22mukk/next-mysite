@@ -74,6 +74,17 @@ export default function Profile() {
                 </div>
               </div>
             </a>
+            <a href="#"　target="_blank" rel="noreferrer">
+              <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg">
+                <div className="p-3 mr-4 bg-blue-500 text-white rounded-full">
+                  
+                </div>
+                <div className="">
+                  <p className="mb-2 text-sm font-medium text-gray-900">更新します</p>
+                  <p className="text-sm font-normal text-gray-700">更新します。</p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </section>
