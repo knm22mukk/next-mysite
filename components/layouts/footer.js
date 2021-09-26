@@ -14,6 +14,9 @@ export default function Footer() {
             <Link href="/blog" passHref>
               <li className="p-2 hover:underline cursor-pointer"><a>BLOG</a></li>
             </Link>
+            <Link href="/profile" passHref>
+              <li className="p-2 hover:underline cursor-pointer"><a>PROFILE</a></li>
+            </Link>
             <Link href="/contact" passHref>
               <li className="p-2 hover:underline cursor-pointer"><a>CONTACT</a></li>
             </Link>

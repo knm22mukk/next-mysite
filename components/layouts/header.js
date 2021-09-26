@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineHome, AiOutlineMail } from 'react-icons/ai'
-import { RiArticleLine } from 'react-icons/ri'
+import { RiArticleLine, RiProfileLine } from 'react-icons/ri'
 
 export default function Header() {
   const [active, setActive] = useState(false);
@@ -43,6 +43,12 @@ export default function Header() {
               <a className='md:inline-flex md:w-auto w-full mx-3 py-2 font-bold items-center justify-center border-b-2 hover:border-blue-600'>
                 <RiArticleLine className="mx-2 text-blue-600 text-xl" />
                 <span className="mr-2">BLOG</span>
+              </a>
+            </Link>
+            <Link href='/profile'>
+              <a className='md:inline-flex md:w-auto w-full mx-3 py-2 font-bold items-center justify-center border-b-2 hover:border-blue-600'>
+                <RiProfileLine className="mx-2 text-blue-600 text-xl" />
+                <span className="mr-2">PROFILE</span>
               </a>
             </Link>
             <Link href='/contact'>
