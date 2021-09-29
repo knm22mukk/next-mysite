@@ -2,10 +2,12 @@ import Layout from "../components/layouts/templete";
 import Image from 'next/image'
 import { FaInstagram } from 'react-icons/fa'
 import { FiTwitter, FiGithub } from 'react-icons/fi'
+import MyHead from "../components/layouts/my-head";
 
 export default function Profile() {
   return (
     <Layout>
+      <MyHead title="むっくの自己紹介ページ" description="包装資材営業マンむっくの自己紹介ページです。" />
       <div className="container px-10 py-5">
         <h1 className="font-bold text-xl">PROFILE</h1>
         <div className="h-1 w-10 bg-blue-500 rounded"></div>

@@ -2,10 +2,12 @@ import Link from 'next/link'
 import { client } from  '../libs/client'
 import Layout from '../components/layouts/templete';
 import Image from 'next/image';
+import MyHead from '../components/layouts/my-head';
 
 export default function Blog({ blog }) {
   return (
     <Layout>
+      <MyHead title="ブログ一覧ページ" description="包装資材営業マンむっくのブログ一覧ページ" />
       <div className="container px-10 py-5">
         <h1 className="font-bold text-xl">BLOG</h1>
         <div className="h-1 w-10 bg-blue-500 rounded"></div>

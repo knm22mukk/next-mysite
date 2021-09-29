@@ -2,10 +2,12 @@ import Layout from "../components/layouts/templete";
 import Image from "next/image"
 import { FaRegAddressCard } from 'react-icons/fa'
 import { AiOutlineMail, AiOutlineMessage } from 'react-icons/ai'
+import MyHead from "../components/layouts/my-head";
 
 export default function Contact() {
   return (
     <Layout>
+      <MyHead title="お問い合わせページ" description="包装資材営業マンむっくへのお問い合わせページです。" />
       <div className="container px-10 py-5">
         <h1 className="font-bold text-xl">CONTACT</h1>
         <div className="h-1 w-10 bg-blue-500 rounded"></div>
