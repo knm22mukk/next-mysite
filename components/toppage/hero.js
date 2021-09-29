@@ -3,7 +3,7 @@ import Link from 'next/link'
 export const Hero = () => {
   return (
     <>
-      <div className="w-full bg-center bg-cover h-96" style={{ backgroundImage: `url("/images/moldimage.jpg")` }}>
+      <div className="w-full bg-center bg-cover h-96" style={{ backgroundImage: `url("/images/moldimage.webp")` }}>
         <div className="flex items-center justify-center w-full h-full">
           <div className="text-center mx-10">
             <h1 className="text-5xl font-bold mb-4 text-white">MUKK BLOG</h1>
