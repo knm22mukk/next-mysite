@@ -8,7 +8,7 @@ export const SecondSection = () => {
         <div className="grid gap-6 grid-cols-2 md:grid-cols-4">
           <a href="https://nextjs.org/"　target="_blank" rel="noreferrer">
             <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg ring-2 ring-offset-2 ring-offset-blue-600 ">
-              <div className="p-3 mr-4 rounded-full text-3xl">
+              <div className="p-2 mr-3 rounded-full text-3xl">
                 <SiNextDotJs />
               </div>
               <div className="">
@@ -17,9 +17,9 @@ export const SecondSection = () => {
               </div>
             </div>
           </a>
-          <a href="https://ja.reactjs.org/"　target="_blank" rel="noreferrer">
+          <a href="https://ja.reactjs.org/" target="_blank" rel="noreferrer">
             <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg ring-2 ring-offset-2 ring-offset-blue-600 ">
-              <div className="p-3 mr-4 rounded-full text-3xl">
+              <div className="p-2 mr-3 rounded-full text-3xl">
                 <SiReact />
               </div>
               <div className="">
@@ -28,9 +28,9 @@ export const SecondSection = () => {
               </div>
             </div>
           </a>
-          <a href="https://tailwindcss.com/"　target="_blank" rel="noreferrer">
+          <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
             <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg ring-2 ring-offset-2 ring-offset-blue-600 ">
-              <div className="p-3 mr-4 rounded-full text-3xl">
+              <div className="p-2 mr-3 rounded-full text-3xl">
                 <SiTailwindcss />
               </div>
               <div className="">
@@ -39,9 +39,9 @@ export const SecondSection = () => {
               </div>
             </div>
           </a>
-          <a href="https://microcms.io/"　target="_blank" rel="noreferrer">
+          <a href="https://microcms.io/" target="_blank" rel="noreferrer">
             <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg ring-2 ring-offset-2 ring-offset-blue-600 ">
-              <div className="p-3 mr-4 rounded-full text-3xl">
+              <div className="p-2 mr-3 rounded-full text-3xl">
                 <SiCraftcms />
               </div>
               <div className="">

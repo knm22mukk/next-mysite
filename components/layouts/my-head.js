@@ -9,6 +9,9 @@ export default function MyHead({ title, description, keywords, canonical }) {
   return(
     <Head>
       <title>{ outputTitle }</title>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
       <meta name="description" content={outputDescription} />
       <meta name="keywords" content={outputKeywords} />
 
@@ -24,6 +27,8 @@ export default function MyHead({ title, description, keywords, canonical }) {
       <meta name="twitter:image" content="/images/logo.png" />
 
       <link rel="canonical" href={outputCanonical} />
+
+      <link rel="shortcut icon" href="/images/favicon.ico" />
     </Head>
   )
 }
