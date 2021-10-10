@@ -4,7 +4,7 @@ export const SecondSection = () => {
   return (
     <>
       <div className="relative">
-        <h3 className="text-3xl font-bold text-gray-600 mb-10 text-center">【フレームワーク & ライブラリー】</h3>
+        <h2 className="text-3xl font-bold text-gray-600 mb-10 text-center">【フレームワーク & ライブラリー】</h2>
         <div className="grid gap-6 grid-cols-2 md:grid-cols-4">
           <a href="https://nextjs.org/"　target="_blank" rel="noreferrer">
             <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg ring-2 ring-offset-2 ring-offset-blue-600 ">

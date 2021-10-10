@@ -1,5 +1,6 @@
 import Header from "./header";
 import Footer from "./footer";
+import { ReturnTopButton } from "./return-top-button";
 
 export default function Layout({ children }) {
   return (
@@ -9,6 +10,7 @@ export default function Layout({ children }) {
       </header>
       <main className="bg-gray-100 body-font">
         { children }
+        <ReturnTopButton className="" />
       </main>
       <footer>
         <Footer />
