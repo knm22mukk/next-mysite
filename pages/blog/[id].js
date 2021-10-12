@@ -2,6 +2,7 @@ import Layout from "../../components/layouts/templete";
 import { client } from "../../libs/client";
 import Link from 'next/link'
 import MyHead from "../../components/layouts/my-head";
+import Date from "../../components/blogs/date";
 
 export default function BlogId({ blog }) {
   return (
@@ -9,7 +10,7 @@ export default function BlogId({ blog }) {
       <MyHead title={blog.title} />
       <main className="container mx-auto p-10">
         <h1 className="text-center font-bold text-4xl">{blog.title}</h1>
-        <p className="text-sm mt-3">{blog.publishedAt}</p>
+        <p className="text-sm mt-3"><Date dateString={blog.publishedAt} /></p>
         <p className="text-sm mt-3">カテゴリー：<span className="">{blog.category.name}</span></p>
         <div
           dangerouslySetInnerHTML={{

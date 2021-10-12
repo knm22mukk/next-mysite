@@ -3,6 +3,7 @@ import { client } from  '../libs/client'
 import Layout from '../components/layouts/templete';
 import Image from 'next/image';
 import MyHead from '../components/layouts/my-head';
+import Date from '../components/blogs/date';
 
 export default function Blog({ blog }) {
   return (
@@ -25,6 +26,9 @@ export default function Blog({ blog }) {
                   </h1>
                   <p className="text-gray-700 my-2 hover-text-900">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quis.
+                  </p>
+                  <p className="text-gray-700 my-2 hover-text-900">
+                    <Date dateString={blog.publishedAt} />
                   </p>
                 </div>
               </div>
