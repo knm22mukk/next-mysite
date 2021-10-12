@@ -9,7 +9,7 @@ export default function Home() {
     <Layout>
       <MyHead />
       <Hero />
-      <section className="p-10 container mx-auto px-6 md:px-0">
+      <section className="p-10 container mx-auto">
         <FirstSection />
         <SecondSection />
       </section>

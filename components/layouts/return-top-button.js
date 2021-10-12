@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { FaArrowUp } from 'react-icons/fa'
 
 export const ReturnTopButton = () => {
 
@@ -43,10 +44,10 @@ export const ReturnTopButton = () => {
   return(
     <button 
       onClick={returnTop}
-      className="px-6 py-2 my-3 text-sm font-bold text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none"
+      className="fixed right-5 bottom-5 p-4 bg-blue-400 text-white rounded-full text-3xl"
       style={style}
     >
-      トップに戻る
+      <FaArrowUp />
     </button>
   )
 }

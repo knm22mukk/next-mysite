@@ -1,10 +1,12 @@
 import Layout from "../../components/layouts/templete";
 import { client } from "../../libs/client";
 import Link from 'next/link'
+import MyHead from "../../components/layouts/my-head";
 
 export default function BlogId({ blog }) {
   return (
     <Layout>
+      <MyHead title={blog.title} />
       <main className="container mx-auto p-10">
         <h1 className="text-center font-bold text-4xl">{blog.title}</h1>
         <p className="text-sm mt-3">{blog.publishedAt}</p>

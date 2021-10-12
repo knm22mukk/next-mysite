@@ -15,11 +15,11 @@ export default function Contact() {
       <div className="max-w-screen-xl px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-5 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
         <div className="flex flex-col justify-between">
           <div>
-            <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
+            <h2 className="text-4xl font-bold leading-tight">
               お気軽に<br />お問い合わせください
             </h2>
             <div className="mt-8">
-              <Image src="/images/macbook.jpg" height={300} width={420} alt="contact-image" />
+              <Image src="/images/message.svg" height={300} width={420} alt="contact-image" />
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function Contact() {
             </div>
             <div className="mt-8">
               <button className="text-xl font-bold tracking-wide bg-blue-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
-                send message
+                送信する
               </button>
             </div>
           </div>
