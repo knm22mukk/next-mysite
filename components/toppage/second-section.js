@@ -5,7 +5,7 @@ export const SecondSection = () => {
     <>
       <div className="relative lg:px-24 md:px-10">
         <h2 className="text-3xl font-bold text-gray-600 mb-10 text-center">【フレームワーク & ライブラリー】</h2>
-        <div className="grid gap-6 grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           <a href="https://nextjs.org/"　target="_blank" rel="noreferrer">
             <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg ring-2 ring-offset-2 ring-offset-blue-600 ">
               <div className="p-2 mr-3 rounded-full text-3xl">

@@ -13,8 +13,8 @@ export default function Blog({ blog }) {
         <div className="h-1 w-10 bg-blue-500 rounded"></div>
       </div>
 
-      <div className="min-h-screen pb-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+      <div className="min-h-screen pb-10 px-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
           {blog.map((blog) => (
             <Link key={blog.id} href={`/blog/${blog.id}`} passHref>
               <div className="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300 bg-white text-center cursor-pointer">
