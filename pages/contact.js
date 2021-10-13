@@ -3,15 +3,13 @@ import Image from "next/image"
 import { FaRegAddressCard } from 'react-icons/fa'
 import { AiOutlineMail, AiOutlineMessage } from 'react-icons/ai'
 import MyHead from "../components/layouts/my-head";
+import PageTitle from "../components/layouts/page-title";
 
 export default function Contact() {
   return (
     <Layout>
       <MyHead title="お問い合わせページ" description="包装資材営業マンむっくへのお問い合わせページです。" />
-      <div className="container px-10 py-5">
-        <h1 className="font-bold text-xl">CONTACT</h1>
-        <div className="h-1 w-10 bg-blue-500 rounded"></div>
-      </div>
+      <PageTitle title="contact" />
       <div className="max-w-screen-xl px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-5 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
         <div className="flex flex-col justify-between">
           <div>

@@ -4,16 +4,13 @@ import Layout from '../components/layouts/templete';
 import Image from 'next/image';
 import MyHead from '../components/layouts/my-head';
 import Date from '../components/blogs/date';
+import PageTitle from '../components/layouts/page-title';
 
 export default function Blog({ blog }) {
   return (
     <Layout>
       <MyHead title="ブログ一覧ページ" description="包装資材営業マンむっくのブログ一覧ページ" />
-      <div className="container px-10 py-5">
-        <h1 className="font-bold text-xl">BLOG</h1>
-        <div className="h-1 w-10 bg-blue-500 rounded"></div>
-      </div>
-
+      <PageTitle title="blog" />
       <div className="min-h-screen pb-10 px-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
           {blog.map((blog) => (
