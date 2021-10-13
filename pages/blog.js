@@ -19,15 +19,15 @@ export default function Blog({ blog }) {
           {blog.map((blog) => (
             <Link key={blog.id} href={`/blog/${blog.id}`} passHref>
               <div className="container mx-auto shadow-lg rounded-lg max-w-md hover:shadow-2xl transition duration-300 bg-white text-center cursor-pointer">
-                <Image priority src="/images/377201.jpg" className="rounded-t-lg w-full" height={300} width={300} alt="blogImage" />
+                <Image priority src={blog.image.url} className="rounded-t-lg w-full" height={300} width={300} alt="blogImage" />
                 <div className="p-3">
-                  <h1 className="md:text-1xl text-xl hover:text-indigo-600 transition duration-200  font-bold text-gray-900">
+                  <h2 className="md:text-1xl text-xl hover:text-indigo-600 transition duration-200  font-bold text-gray-900">
                     {blog.title}
-                  </h1>
-                  <p className="text-gray-700 my-2 hover-text-900">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quis.
+                  </h2>
+                  <p className="text-gray-700 my-3 hover-text-900">
+                    {blog.description}
                   </p>
-                  <p className="text-gray-700 my-2 hover-text-900">
+                  <p className="text-gray-700 my-3 hover-text-900">
                     <Date dateString={blog.publishedAt} />
                   </p>
                 </div>
