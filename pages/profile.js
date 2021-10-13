@@ -1,7 +1,5 @@
 import Layout from "../components/layouts/templete";
 import Image from 'next/image'
-import { FaInstagram } from 'react-icons/fa'
-import { FiTwitter, FiGithub } from 'react-icons/fi'
 import MyHead from "../components/layouts/my-head";
 import PageTitle from "../components/layouts/page-title"
 
@@ -51,51 +49,16 @@ export default function Profile() {
         <div className="max-w-2xl px-6 text-center mx-auto">
           <h2 className="text-2xl font-semibold text-gray-800">Follow me</h2>
         </div>
-        <div className="container px-10 lg:px-24 py-10 mx-auto">
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            <a href="https://www.instagram.com/mukk_houzai/"　target="_blank" rel="noreferrer">
-              <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg">
-                <div className="p-3 mr-4 bg-blue-500 text-white rounded-full">
-                  <FaInstagram />
-                </div>
-                <div className="">
-                  <p className="mb-2 text-sm font-medium text-gray-900">Instagram</p>
-                  <p className="text-sm font-normal text-gray-700">更新します。</p>
-                </div>
-              </div>
+        <div className="px-24 md:px-10 py-10 text-center">
+          <div className="flex justify-center items-center">
+            <a href="https://www.instagram.com/mukk_houzai/"　target="_blank" rel="noreferrer" className="mx-3">
+              <Image src='/images/instagram_icon.png' width={100} height={100} alt="instagram" />
             </a>
-            <a href="https://twitter.com/mukk_houzai"　target="_blank" rel="noreferrer">
-              <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg">
-                <div className="p-3 mr-4 bg-blue-500 text-white rounded-full">
-                  <FiTwitter />
-                </div>
-                <div className="">
-                  <p className="mb-2 text-sm font-medium text-gray-900">Twitter</p>
-                  <p className="text-sm font-normal text-gray-700">更新します。</p>
-                </div>
-              </div>
+            <a href="https://twitter.com/mukk_houzai"　target="_blank" rel="noreferrer" className="mx-3">
+              <Image src='/images/twitter_icon.png' width={100} height={100} alt="instagram" />
             </a>
-            <a href="https://github.com/knm22mukk/next-mysite"　target="_blank" rel="noreferrer">
-              <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg">
-                <div className="p-3 mr-4 bg-blue-500 text-white rounded-full">
-                  <FiGithub />
-                </div>
-                <div className="">
-                  <p className="mb-2 text-sm font-medium text-gray-900">Github</p>
-                  <p className="text-sm font-normal text-gray-700">更新します。</p>
-                </div>
-              </div>
-            </a>
-            <a href="#"　target="_blank" rel="noreferrer">
-              <div className="flex items-center p-4 bg-white border-gray-200 rounded-lg shadow-lg">
-                <div className="p-3 mr-4 bg-blue-500 text-white rounded-full">
-                  
-                </div>
-                <div className="">
-                  <p className="mb-2 text-sm font-medium text-gray-900">更新します</p>
-                  <p className="text-sm font-normal text-gray-700">更新します。</p>
-                </div>
-              </div>
+            <a href="https://github.com/knm22mukk/next-mysite"　target="_blank" rel="noreferrer" className="mx-3">
+              <Image src='/images/github_icon.png' width={100} height={100} alt="instagram" />
             </a>
           </div>
         </div>
