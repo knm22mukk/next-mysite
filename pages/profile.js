@@ -52,13 +52,13 @@ export default function Profile() {
         <div className="px-24 md:px-10 py-10 text-center">
           <div className="flex justify-center items-center">
             <a href="https://www.instagram.com/mukk_houzai/"　target="_blank" rel="noreferrer" className="mx-4">
-              <Image src='/images/instagram_icon.png' width={120} height={120} alt="instagram" />
+              <Image src='/images/logo_instagram.png' width={120} height={120} alt="instagram" />
             </a>
             <a href="https://twitter.com/mukk_houzai"　target="_blank" rel="noreferrer" className="mx-4">
-              <Image src='/images/twitter_icon.png' width={120} height={120} alt="instagram" />
+              <Image src='/images/logo_twitter.png' width={120} height={100} alt="instagram" />
             </a>
             <a href="https://github.com/knm22mukk/next-mysite"　target="_blank" rel="noreferrer" className="mx-4">
-              <Image src='/images/github_icon.png' width={120} height={120} alt="instagram" />
+              <Image src='/images/logo_github.png' width={120} height={120} alt="instagram" />
             </a>
           </div>
         </div>
