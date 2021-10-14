@@ -51,13 +51,13 @@ export default function Profile() {
         </div>
         <div className="px-24 md:px-10 py-10 text-center">
           <div className="flex justify-center items-center">
-            <a href="https://www.instagram.com/mukk_houzai/"　target="_blank" rel="noreferrer" className="mx-3">
+            <a href="https://www.instagram.com/mukk_houzai/"　target="_blank" rel="noreferrer" className="mx-4">
               <Image src='/images/instagram_icon.png' width={100} height={100} alt="instagram" />
             </a>
-            <a href="https://twitter.com/mukk_houzai"　target="_blank" rel="noreferrer" className="mx-3">
+            <a href="https://twitter.com/mukk_houzai"　target="_blank" rel="noreferrer" className="mx-4">
               <Image src='/images/twitter_icon.png' width={100} height={100} alt="instagram" />
             </a>
-            <a href="https://github.com/knm22mukk/next-mysite"　target="_blank" rel="noreferrer" className="mx-3">
+            <a href="https://github.com/knm22mukk/next-mysite"　target="_blank" rel="noreferrer" className="mx-4">
               <Image src='/images/github_icon.png' width={100} height={100} alt="instagram" />
             </a>
           </div>
